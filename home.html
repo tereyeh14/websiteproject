@@ -1,63 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+  <meta charset="UTF-8">
+  <title>Benito Quinquela Martín</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5e6ca; /* set background color */
+    }
+    header {
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* crop image to fit header */
+    }
+    header .overlay {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translate(0, -50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1em;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 2em;
+      font-family: 'Helvetica Neue', sans-serif;
+      text-align: center; /* align text center but to the left */
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2em;
+      text-align: justify; /* align text justify */
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.8em;
+    }
+    img {
+      display: block; /* center image */
+      margin: 0 auto;
+      max-width: 50%; /* reduce image size */
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-
-   
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">My Web App</a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item">
-                        <a class="nav-link {{ is_active }}" href="{{href}}">{{link_text}}</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container" style="margin-top:2em;">
-
-        <h2>Welcome Home</h2>
-
-        <p class="lead">This is the home page.</p>
-    
-        <p>Here is some more info!</p>
-    
-
-        <div id="content">
-
-        </div>
-
-        <footer style="margin-top:2em; margin-bottom:2em;">
-        <hr>
-            &copy; Copyright 2023 [Your Name Here] |
-            <a href="https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/web-app/README.md">Source</a>
+  <header>
+    <img src="benito.jpg" alt="Benito Quinquela Martín">
+    <div class="overlay">Benito Quinquela Martín</div>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">La Boca</a>
+    <a href="#">Style</a>
+    <a href="#">Famous Art</a>
+  </nav>
+  <section>
+    <h1>About Benito Quinquela Martín</h1>
+    <p>Benito Quinquela Martín (1890-1977) was an Argentine painter known for his depictions of life in the La Boca neighborhood of Buenos Aires, where he grew up. He is often considered one of Argentina's most important artists of the 20th century.</p>
+    <p>Quinquela Martín was born in La Boca in 1890 to immigrant parents from Genoa, Italy. He had a difficult childhood, growing up in poverty and with an absent father. However, he found solace in art, and began drawing and painting at a young age.</p>
+    <p>At the age of 13, Quinquela Martín was taken in by a local businessman, who encouraged his artistic talents and eventually helped him attend the National Academy of Fine Arts in Buenos Aires. He later studied in Europe, where he was influenced by the works of the Impressionists and Post-Impressionists.
+          <p>Quinquela Martín is best known for his depictions of the working-class life in La Boca, particularly its port and shipyards. His paintings often feature bright colors and bold brushstrokes, and are characterized by a sense of movement and energy. He also painted portraits and landscapes, but it is his depictions of La Boca that have become his most iconic works.
+      <p> Quinquela Martín was not only an artist but also a philanthropist and social activist. He used his wealth and influence to help improve the living conditions of the people in La Boca, building schools, hospitals, and community centers. He also established a foundation to promote the arts and culture in the area.
+       <p>Today, Quinquela Martín is remembered as a beloved figure in Argentine art and culture. His former home in La Boca is now a museum dedicated to his life and work, and his paintings can be found in museums and collections around the world.
+        <footer>
+          &copy; Teresa Yeh 2023
         </footer>
-    </div>
-
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-
-        console.log("Thanks for the page visit!")
-
-    </script>
-</body>
-</html>
+        
