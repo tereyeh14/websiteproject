@@ -71,11 +71,13 @@
     <div class="overlay">Benito Quinquela Martín</div>
   </header>
   <nav>
-    <a href="#">Home</a>
-    <a href="#">La Boca</a>
-    <a href="#">Style</a>
-    <a href="#">Famous Art</a>
-  </nav>
+   
+    <a href="home.html">Home</a>
+    <a href="La Boca.html">La Boca</a>
+    <a href="Style.html">Style</a>
+    <a href="Famous Art.html">Famous Art</a>
+  
+</nav>
   <section>
     <h1>About Benito Quinquela Martín</h1>
     <p>Benito Quinquela Martín (1890-1977) was an Argentine painter known for his depictions of life in the La Boca neighborhood of Buenos Aires, where he grew up. He is often considered one of Argentina's most important artists of the 20th century.</p>
